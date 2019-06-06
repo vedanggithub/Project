@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66" started-at="2019-06-05T00:28:00Z" finished-at="2019-06-05T00:28:00Z">
+  <suite name="Default suite" duration-ms="86" started-at="2019-06-05T23:52:46Z" finished-at="2019-06-05T23:52:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66" started-at="2019-06-05T00:28:00Z" finished-at="2019-06-05T00:28:00Z">
+    <test name="Default test" duration-ms="86" started-at="2019-06-05T23:52:46Z" finished-at="2019-06-05T23:52:46Z">
       <class name="Coding.Practice.Collectest1">
-        <test-method status="PASS" signature="test()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="test" duration-ms="15" started-at="2019-06-04T17:28:00Z" finished-at="2019-06-04T17:28:00Z">
+        <test-method status="PASS" signature="negative()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="negative" duration-ms="23" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="test2" duration-ms="3" started-at="2019-06-04T17:28:00Z" finished-at="2019-06-04T17:28:00Z">
+        </test-method> <!-- negative -->
+        <test-method status="PASS" signature="nullvalue()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="nullvalue" duration-ms="9" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="test3" duration-ms="5" started-at="2019-06-04T17:28:00Z" finished-at="2019-06-04T17:28:00Z">
+        </test-method> <!-- nullvalue -->
+        <test-method status="PASS" signature="positive()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="positive" duration-ms="2" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
+        </test-method> <!-- positive -->
       </class> <!-- Coding.Practice.Collectest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
