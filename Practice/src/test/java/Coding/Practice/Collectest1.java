@@ -3,6 +3,8 @@ package Coding.Practice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import Coding.Practice.Collec;
+
 //import static org.junit.Assert.*;
 
 //import org.junit.Test;

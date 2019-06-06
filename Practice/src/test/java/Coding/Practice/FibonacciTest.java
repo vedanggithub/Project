@@ -3,6 +3,8 @@ package Coding.Practice;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import Coding.Practice.Fibonacci;
+
 public class FibonacciTest {
 
 	@Test
