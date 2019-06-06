@@ -102,17 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.Collectest1" hash-for-method="negative">negative</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.FibonacciTest" hash-for-method="negative">negative</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.Collectest1" hash-for-method="nullvalue">nullvalue</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.FibonacciTest" hash-for-method="positive">positive</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.Collectest1" hash-for-method="positive">positive</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Coding.Practice.FibonacciTest" hash-for-method="zero">zero</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,7 +130,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Coding.Practice.Collectest1</span>
+              <span class="class-name">Coding.Practice.FibonacciTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -142,16 +142,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="nullvalue">
-                  </a> <!-- nullvalue -->
-                  <span class="method-name">nullvalue</span>
+                  <a name="positive">
+                  </a> <!-- positive -->
+                  <span class="method-name">positive</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="positive">
-                  </a> <!-- positive -->
-                  <span class="method-name">positive</span>
+                  <a name="zero">
+                  </a> <!-- zero -->
+                  <span class="method-name">zero</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,16 +159,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/8r/fm0r_l3d2_g2hvqxrx5jsjf00000gn/T/testng-eclipse--1498396347/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/8r/fm0r_l3d2_g2hvqxrx5jsjf00000gn/T/testng-eclipse--1251468126/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Coding.Practice.Collectest1&quot;/&gt;
+      &lt;class name=&quot;Coding.Practice.FibonacciTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -211,21 +211,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'negative')
-data.setCell(0, 2, 'Coding.Practice.Collectest1')
-data.setCell(0, 3, 23);
+data.setCell(0, 2, 'Coding.Practice.FibonacciTest')
+data.setCell(0, 3, 27);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'nullvalue')
-data.setCell(1, 2, 'Coding.Practice.Collectest1')
-data.setCell(1, 3, 9);
+data.setCell(1, 1, 'positive')
+data.setCell(1, 2, 'Coding.Practice.FibonacciTest')
+data.setCell(1, 3, 8);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'positive')
-data.setCell(2, 2, 'Coding.Practice.Collectest1')
-data.setCell(2, 3, 2);
+data.setCell(2, 1, 'zero')
+data.setCell(2, 2, 'Coding.Practice.FibonacciTest')
+data.setCell(2, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 ms</span>
+              <span class="suite-total-time">Total running time: 38 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,18 +251,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Coding.Practice.Collectest1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Coding.Practice.FibonacciTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">negative</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">nullvalue</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-name">positive</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">positive</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-name">zero</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

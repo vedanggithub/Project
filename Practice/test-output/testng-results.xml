@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="86" started-at="2019-06-05T23:52:46Z" finished-at="2019-06-05T23:52:46Z">
+  <suite name="Default suite" duration-ms="131" started-at="2019-06-06T19:36:09Z" finished-at="2019-06-06T19:36:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="86" started-at="2019-06-05T23:52:46Z" finished-at="2019-06-05T23:52:46Z">
-      <class name="Coding.Practice.Collectest1">
-        <test-method status="PASS" signature="negative()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="negative" duration-ms="23" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
+    <test name="Default test" duration-ms="131" started-at="2019-06-06T19:36:09Z" finished-at="2019-06-06T19:36:09Z">
+      <class name="Coding.Practice.FibonacciTest">
+        <test-method status="PASS" signature="negative()[pri:0, instance:Coding.Practice.FibonacciTest@6cc4c815]" name="negative" duration-ms="27" started-at="2019-06-06T19:36:09Z" finished-at="2019-06-06T19:36:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negative -->
-        <test-method status="PASS" signature="nullvalue()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="nullvalue" duration-ms="9" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nullvalue -->
-        <test-method status="PASS" signature="positive()[pri:0, instance:Coding.Practice.Collectest1@39fb3ab6]" name="positive" duration-ms="2" started-at="2019-06-05T16:52:46Z" finished-at="2019-06-05T16:52:46Z">
+        <test-method status="PASS" signature="positive()[pri:0, instance:Coding.Practice.FibonacciTest@6cc4c815]" name="positive" duration-ms="8" started-at="2019-06-06T19:36:09Z" finished-at="2019-06-06T19:36:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positive -->
-      </class> <!-- Coding.Practice.Collectest1 -->
+        <test-method status="PASS" signature="zero()[pri:0, instance:Coding.Practice.FibonacciTest@6cc4c815]" name="zero" duration-ms="3" started-at="2019-06-06T19:36:09Z" finished-at="2019-06-06T19:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zero -->
+      </class> <!-- Coding.Practice.FibonacciTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
