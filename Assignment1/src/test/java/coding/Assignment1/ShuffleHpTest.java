@@ -39,12 +39,20 @@ public class ShuffleHpTest {
 		assertEquals(actual, true);
 	}
 	@Test
-	public void nullString() {
+	public void emptyString() {
 		String str1=" ";
 		String str2=" ";
 		String str="  ";
 		boolean actual = ShuffleHp.shuffle(str, str1, str2);
 		assertEquals(actual, true);
+	}
+	@Test
+	public void nullString() {
+		String str1=null;
+		String str2=null;
+		String str=null;
+		boolean actual = ShuffleHp.shuffle(str, str1, str2);
+		assertEquals(actual, false);
 	}
 
 }
