@@ -5,7 +5,8 @@
     <classes>
       <class name="coding.Assignment1.StringShuffle1Test">
         <methods>
-          <include name="nullString"/>
+          <include name="negIntString"/>
+          <include name="validString"/>
         </methods>
       </class> <!-- coding.Assignment1.StringShuffle1Test -->
     </classes>

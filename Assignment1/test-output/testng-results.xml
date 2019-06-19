@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+  <suite name="Default suite" duration-ms="138" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
-      <class name="coding.Assignment1.StringShuffle1Test">
-        <test-method status="PASS" signature="inValidString()[pri:0, instance:coding.Assignment1.StringShuffle1Test@5f375618]" name="inValidString" duration-ms="28" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+    <test name="Default test" duration-ms="138" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
+      <class name="coding.Assignment1.ShuffleHpTest">
+        <test-method status="PASS" signature="inValidString()[pri:0, instance:coding.Assignment1.ShuffleHpTest@5f375618]" name="inValidString" duration-ms="16" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidString -->
-        <test-method status="PASS" signature="intString()[pri:0, instance:coding.Assignment1.StringShuffle1Test@5f375618]" name="intString" duration-ms="3" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+        <test-method status="PASS" signature="intString()[pri:0, instance:coding.Assignment1.ShuffleHpTest@5f375618]" name="intString" duration-ms="6" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intString -->
-        <test-method status="PASS" signature="negIntString()[pri:0, instance:coding.Assignment1.StringShuffle1Test@5f375618]" name="negIntString" duration-ms="1" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+        <test-method status="PASS" signature="negIntString()[pri:0, instance:coding.Assignment1.ShuffleHpTest@5f375618]" name="negIntString" duration-ms="3" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negIntString -->
-        <test-method status="PASS" signature="nullString()[pri:0, instance:coding.Assignment1.StringShuffle1Test@5f375618]" name="nullString" duration-ms="1" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+        <test-method status="PASS" signature="nullString()[pri:0, instance:coding.Assignment1.ShuffleHpTest@5f375618]" name="nullString" duration-ms="8" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nullString -->
-        <test-method status="PASS" signature="validString()[pri:0, instance:coding.Assignment1.StringShuffle1Test@5f375618]" name="validString" duration-ms="2" started-at="2019-06-18T04:32:46Z" finished-at="2019-06-18T04:32:46Z">
+        <test-method status="PASS" signature="validString()[pri:0, instance:coding.Assignment1.ShuffleHpTest@5f375618]" name="validString" duration-ms="11" started-at="2019-06-19T18:30:23Z" finished-at="2019-06-19T18:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validString -->
-      </class> <!-- coding.Assignment1.StringShuffle1Test -->
+      </class> <!-- coding.Assignment1.ShuffleHpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
