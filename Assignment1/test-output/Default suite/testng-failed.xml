@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coding.Assignment1.StringShuffle1Test">
+      <class name="coding.Assignment1.PalindromeTest">
         <methods>
-          <include name="negIntString"/>
-          <include name="validString"/>
+          <include name="sstring"/>
         </methods>
-      </class> <!-- coding.Assignment1.StringShuffle1Test -->
+      </class> <!-- coding.Assignment1.PalindromeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,7 +5,7 @@ import java.util.*;
 public class ShuffleHp {
 	public static void main(String[] args) {
 		String str = "EADB";// ABDE
-		String str1 = "BA";
+		String str1 = "BADE";
 		String str2 = "DE";
 		System.out.println(shuffle(str, str1, str2));
 	}
@@ -17,7 +17,7 @@ public class ShuffleHp {
 		// int count = 0;
 
 		String temp2 = str1 + str2;
-		if (str != null) {
+		if (str != null && temp2!=null ) {
 			char[] ch = str.toCharArray();
 			for (char c : ch) {
 				if (dp.containsKey(c)) {
@@ -26,7 +26,7 @@ public class ShuffleHp {
 					dp.put(c, 1);
 				}
 			}
-			//System.out.println(dp);
+			System.out.println(dp);
 
 			char[] ch2 = temp2.toCharArray();
 
@@ -38,12 +38,11 @@ public class ShuffleHp {
 					dp1.put(c, 1);
 				}
 			}
-			//System.out.println(dp1);
+			System.out.println(dp1);
 			if (dp.equals(dp1)) {
 				return true;
 			}
 		}
 		return false;
-
 	}
 }
