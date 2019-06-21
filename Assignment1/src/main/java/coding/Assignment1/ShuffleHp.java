@@ -1,11 +1,11 @@
 package coding.Assignment1;
-
+//Program to check if a String is a valid shuffle of two String? 
 import java.util.*;
 
 public class ShuffleHp {
 	public static void main(String[] args) {
-		String str = "EADB";// ABDE
-		String str1 = "BADE";
+		String str = "EEADB";// ABDE
+		String str1 = "BA";
 		String str2 = "DE";
 		System.out.println(shuffle(str, str1, str2));
 	}
@@ -30,19 +30,21 @@ public class ShuffleHp {
 
 			char[] ch2 = temp2.toCharArray();
 
-			for (char c : ch2) {
+			for (char c1: ch2) {
 
-				if (dp1.containsKey(c)) {
-					dp1.put(c, dp1.get(c) + 1);
+				if (dp1.containsKey(c1)) {
+					dp1.put(c1, dp1.get(c1) + 1);
 				} else {
-					dp1.put(c, 1);
+					dp1.put(c1, 1);
 				}
+				
 			}
 			System.out.println(dp1);
 			if (dp.equals(dp1)) {
 				return true;
 			}
 		}
+		
 		return false;
 	}
 }

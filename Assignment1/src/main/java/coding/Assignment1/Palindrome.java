@@ -1,5 +1,5 @@
 package coding.Assignment1;
-
+//Program to check if String is Palindrome?
 public class Palindrome {
 public static void main(String[] args) {
 	String str="@ #$# @";
