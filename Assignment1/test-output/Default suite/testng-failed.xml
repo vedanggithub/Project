@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coding.Assignment1.ReverseStringWTest">
+      <class name="coding.Assignment1.IntersectionATest">
         <methods>
-          <include name="inValidString"/>
+          <include name="positive"/>
         </methods>
-      </class> <!-- coding.Assignment1.ReverseStringWTest -->
+      </class> <!-- coding.Assignment1.IntersectionATest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,38 +1,44 @@
 package coding.Assignment1;
 
-import java.util.HashMap;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 //Program to return first non repeated character from String?
 public class FirstRc {
-public static void main(String[] args) {
-	String str=null;
-	System.out.println(nonRc(str));
-}
-
-public static Object nonRc(String str) {
-	if(str!=null) {
-		HashMap<Character,Integer> Hp=new HashMap<Character,Integer>();
-		char[] c=str.toLowerCase().toCharArray();
-		for(char ch:c) {
-			if(Hp.containsKey(ch)) {
-			Hp.put(ch,Hp.get(ch)+1);
-		}else 
-		{
-			Hp.put(ch, 1);
-		}
-		}
-		System.out.println(Hp);
-		
-		for(char ch:c) {
-		if(Hp.get(ch)==1) {
-			
-			return ch;
-		}
-		//System.out.println(ch);
-		
-	}
 	
-}
-	return 0;
+	public static void main(String[] args) {
+		String str = "aaiinkl";
+		System.out.println(nonRc(str));
+	}
 
-}}
+	public static Object nonRc(String str) {
+
+		if (str != null) {
+
+			LinkedHashMap<Character, Integer> hp = new LinkedHashMap<Character, Integer>();
+			char[] c = str.toLowerCase().toCharArray();
+
+			for (char ch : c) {
+
+				if (hp.containsKey(ch)) {
+					hp.put(ch, hp.get(ch) + 1);
+				} else {
+					hp.put(ch, 1);
+				}
+
+			}
+
+			for (Map.Entry<Character, Integer>entrys : hp.entrySet()) {
+
+				if (entrys.getValue() == 1) {
+
+					return entrys.getKey();
+				}
+			}
+		}
+
+		return 0;
+
+	}
+}
