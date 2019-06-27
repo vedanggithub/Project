@@ -7,8 +7,6 @@ import java.util.HashSet;
 //import java.util.List;
 import java.util.Iterator;
 
-public class IntersectionA {
-
 //	public static String intersection(Integer[] nums1, Integer[] nums2) {
 //
 //		if (nums1 != null && nums2 != null) {
@@ -24,7 +22,7 @@ public class IntersectionA {
 //		}
 //		return null;
 //	}
-
+public class IntersectionA {
 	public static String intersection(int[] nums1, int[] nums2) {
 		if (nums1 != null && nums2 != null) {
 			HashSet<Integer> set = new HashSet<Integer>();
