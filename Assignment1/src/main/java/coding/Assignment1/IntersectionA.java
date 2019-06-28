@@ -1,5 +1,6 @@
 package coding.Assignment1;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 //import java.util.Collection;
 import java.util.HashSet;
@@ -8,7 +9,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 //	public static String intersection(Integer[] nums1, Integer[] nums2) {
-//
+
 //		if (nums1 != null && nums2 != null) {
 //			HashSet<Integer> hs = new HashSet<Integer>();
 //			hs.addAll(Arrays.asList(nums1));
@@ -24,7 +25,7 @@ import java.util.Iterator;
 //	}
 public class IntersectionA {
 	public static String intersection(int[] nums1, int[] nums2) {
-
+		if ((nums1 != null && nums2 != null) && (nums1.length!=0 && nums2.length!=0)) {
 		HashSet<Integer> set = new HashSet<Integer>();
 		HashSet<Integer> set1 = new HashSet<Integer>();
 		for (int i : nums1) {
@@ -32,23 +33,23 @@ public class IntersectionA {
 		}
 
 		for (int i : nums2) {
-
-			set1.add(i);
-
+			if (set.contains(i)) {
+				set1.add(i);
+			}
 		}
-		set.retainAll(set1);
 
-		int[] result = new int[set.size()];
+		int[] result = new int[set1.size()];
 		int i = 0;
-		for (int itr : set) {
+		for (int itr : set1) {
 			result[i++] = itr;
 		}
 		return Arrays.toString(result);
+	}	
+	return null;
 	}
-
 	public static void main(String args[]) {
-		int nums1[] = { 1, 2, 2, 1 };
-		int nums2[] = { 2, 2, 1 };
+		int nums1[] = {};
+		int nums2[] = {};
 		System.out.println(intersection(nums1, nums2));
 	}
 }

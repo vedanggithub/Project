@@ -5,7 +5,7 @@
     <classes>
       <class name="coding.Assignment1.IntersectionATest">
         <methods>
-          <include name="positive"/>
+          <include name="zerko"/>
         </methods>
       </class> <!-- coding.Assignment1.IntersectionATest -->
     </classes>
