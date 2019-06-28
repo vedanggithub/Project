@@ -12,16 +12,16 @@ public class ggg {
 		}
 
 		for (int i : nums2) {
-			if (set.contains(i)) {
-				set1.add(i);
-			}
-		}
-		int[] result = new int[set1.size()];
-		int i = 0;
-		Iterator<Integer> itr = set1.iterator();
-		while (itr.hasNext()) {
 
-			result[i++] = itr.next();
+			set1.add(i);
+
+		}
+		set.retainAll(set1);
+
+		int[] result = new int[set.size()];
+		int i = 0;
+		for (int itr : set) {
+			result[i++] = itr;
 		}
 		return Arrays.toString(result);
 	}

@@ -24,27 +24,26 @@ import java.util.Iterator;
 //	}
 public class IntersectionA {
 	public static String intersection(int[] nums1, int[] nums2) {
-		if (nums1 != null && nums2 != null) {
-			HashSet<Integer> set = new HashSet<Integer>();
-			HashSet<Integer> set1 = new HashSet<Integer>();
-			for (int i : nums1) {
-				set.add(i);
-			}
 
-			for (int i : nums2) {
-				if (set.contains(i)) {
-					set1.add(i);
-				}
-			}
-			int[] result = new int[set1.size()];
-			int i = 0;
-			Iterator<Integer> itr = set1.iterator();
-			while (itr.hasNext()) {
-				result[i++] = itr.next();
-			}
-			return Arrays.toString(result);
+		HashSet<Integer> set = new HashSet<Integer>();
+		HashSet<Integer> set1 = new HashSet<Integer>();
+		for (int i : nums1) {
+			set.add(i);
 		}
-		return null;
+
+		for (int i : nums2) {
+
+			set1.add(i);
+
+		}
+		set.retainAll(set1);
+
+		int[] result = new int[set.size()];
+		int i = 0;
+		for (int itr : set) {
+			result[i++] = itr;
+		}
+		return Arrays.toString(result);
 	}
 
 	public static void main(String args[]) {
