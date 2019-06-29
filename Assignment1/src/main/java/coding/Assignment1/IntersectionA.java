@@ -24,7 +24,7 @@ import java.util.Iterator;
 //		return null;
 //	}
 public class IntersectionA {
-	public static String intersection(int[] nums1, int[] nums2) {
+	public static int[] intersection(int[] nums1, int[] nums2) {
 		if ((nums1 != null && nums2 != null) && (nums1.length!=0 && nums2.length!=0)) {
 		HashSet<Integer> set = new HashSet<Integer>();
 		HashSet<Integer> set1 = new HashSet<Integer>();
@@ -43,7 +43,7 @@ public class IntersectionA {
 		for (int itr : set1) {
 			result[i++] = itr;
 		}
-		return Arrays.toString(result);
+		return result;//Arrays.toString(result);
 	}	
 	return null;
 	}

@@ -5,7 +5,9 @@
     <classes>
       <class name="coding.Assignment1.IntersectionATest">
         <methods>
+          <include name="combiPosNegz"/>
           <include name="zerko"/>
+          <include name="zero"/>
         </methods>
       </class> <!-- coding.Assignment1.IntersectionATest -->
     </classes>
